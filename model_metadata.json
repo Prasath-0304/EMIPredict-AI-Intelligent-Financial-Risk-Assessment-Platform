@@ -1,0 +1,123 @@
+{
+  "defaults": {
+    "age": 38.0,
+    "monthly_salary": 51600.0,
+    "years_of_employment": 3.2,
+    "monthly_rent": 0.0,
+    "family_size": 3.0,
+    "dependents": 2.0,
+    "school_fees": 3000.0,
+    "college_fees": 0.0,
+    "travel_expenses": 4900.0,
+    "groceries_utilities": 11400.0,
+    "other_monthly_expenses": 6000.0,
+    "current_emi_amount": 0.0,
+    "credit_score": 700.0,
+    "bank_balance": 195900.0,
+    "emergency_fund": 74000.0,
+    "requested_amount": 237000.0,
+    "requested_tenure": 25.0,
+    "gender": "Male",
+    "marital_status": "Married",
+    "education": "Graduate",
+    "employment_type": "Private",
+    "company_type": "Large Indian",
+    "house_type": "Rented",
+    "existing_loans": "No",
+    "emi_scenario": "Personal Loan Emi"
+  },
+  "choices": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "marital_status": [
+      "Married",
+      "Single"
+    ],
+    "education": [
+      "Graduate",
+      "High School",
+      "Post Graduate",
+      "Professional"
+    ],
+    "employment_type": [
+      "Government",
+      "Private",
+      "Self-employed"
+    ],
+    "company_type": [
+      "Large Indian",
+      "MNC",
+      "Mid-Size",
+      "Small",
+      "Startup"
+    ],
+    "house_type": [
+      "Family",
+      "Own",
+      "Rented"
+    ],
+    "existing_loans": [
+      "No",
+      "Yes"
+    ],
+    "emi_scenario": [
+      "E-Commerce Shopping Emi",
+      "Education Emi",
+      "Home Appliances Emi",
+      "Personal Loan Emi",
+      "Vehicle Emi"
+    ]
+  },
+  "features": [
+    "age",
+    "monthly_salary",
+    "years_of_employment",
+    "monthly_rent",
+    "family_size",
+    "dependents",
+    "school_fees",
+    "college_fees",
+    "travel_expenses",
+    "groceries_utilities",
+    "other_monthly_expenses",
+    "current_emi_amount",
+    "credit_score",
+    "bank_balance",
+    "emergency_fund",
+    "requested_amount",
+    "requested_tenure",
+    "gender",
+    "marital_status",
+    "education",
+    "employment_type",
+    "company_type",
+    "house_type",
+    "existing_loans",
+    "emi_scenario",
+    "total_expenses",
+    "expense_to_income",
+    "debt_to_income",
+    "savings_to_income",
+    "emergency_fund_ratio"
+  ],
+  "summary": {
+    "dataset_rows_used": 120000,
+    "best_classifier": {
+      "name": "random_forest_classifier",
+      "metrics": {
+        "accuracy": 0.9219166666666667,
+        "weighted_f1": 0.9008688699045988
+      }
+    },
+    "best_regressor": {
+      "name": "random_forest_regressor",
+      "metrics": {
+        "rmse": 1143.4799140771602,
+        "mae": 453.2725084472647,
+        "r2": 0.9784612017510446
+      }
+    }
+  }
+}
